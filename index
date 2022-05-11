@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Investrak</title>
+        <style>
+          header{
+            background-color: black;
+            width: 100%;
+            height: 100px;
+            position:fixed;
+            margin-right: 0%;
+            margin: -10px;
+          }
+          .Welcome-tag {
+            background-color: white;
+            color:black;
+            position: center;
+            width:100%;
+            margin: 5px;
+            margin-left: 0%;
+            
+          }
+        }
+            .share{
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .Ticker-main{
+                background-attachment: fixed;
+
+            }
+            .Ticker{
+                margin-left: 45px;
+                margin-top: -22.5px;
+                font-weight:bolder;
+                text-shadow:  ;
+            }
+            .Buy{
+                height:30px;
+                width:100px;
+                background-color: Green;
+                color:white;
+                border:0px;
+                border-radius: 20px;
+                margin-left: -70px;
+            }    
+            .Buy:hover{
+                background-color:rgba(136, 228, 124, 0.637);
+                color: white;
+                cursor: pointer;
+            }
+            .Buy:active{
+                color: rgb(255, 255, 255);
+
+            }
+
+            .Sell{
+        
+                background-color: rgb(207, 4, 4);
+                color: white;
+                border: 0px;
+                height: 30px;
+                width: 100px;
+                border-radius: 20px; 
+                transition:background-color 0.2s color 0.5;
+                margin-left: -70px;
+                margin-top: -10px;
+            }
+
+            .Sell:hover{
+                background-color:rgba(219, 108, 74, 0.637);
+                color: white;
+                cursor: pointer;
+            }
+            .Sell:active{
+                color: rgb(255, 255, 255);
+
+            }
+
+            .quantag{
+            }
+            .Pritag{
+            }
+        </style>
+    </head>
+
+
+    <body>  
+      <header><div id="Header text" align="center"> 
+        <h1><big><strong>
+          <span style="color:green" >INV</span><span style="color:red">EST</span><span style="color:orange">RAK</span><span style="color:white">!</span>
+        </strong> </big>
+          
+        </h1>
+      </div></header>
+<br>
+<br>
+<br>
+<br>
+<br>
+      <div id class="Welcome-tag" align="center" >
+        <h8>
+          <tt>
+            <i>Welcome, Ready to start your investment journey with us?</i>
+          </tt>
+        </h8>
+      </div>
+
+      <hr/>
+      <div id="menu" align="left">
+            <a href="/index.htm">Home</a>
+            <a href="/index.htm">About</a>
+            <a href="/index.htm">Portfolio</a>
+        </div>
+        <br>
+        <div id class="ticker-main"><div id class="share">ZNCO <div id class="Ticker"><span style="color: green; font-size: 30px;font-weight: bolder;" >^</span></div>
+        </div></a></div>
+        
+           
+        <hr>
+        
+
+
+            <table>
+
+                <tr>
+                    
+                    <td><div id class="Pritag">Price</div> <input type="number" Price="orders[][Price]" value="Price" /></td>
+                    <td><div id class="Quantag">Quantity</div><input type="number" Quantity="orders[][Quantity]" value="Quantity" /></td>
+                <tr>
+                    <th> 
+                        <button class="Buy" type="submit" value="Buy">
+                        Buy
+                    </button>
+                    <p></p>
+                    <button class="Sell" type="submit" value="Sell">
+                        Sell
+                    </button>
+                </th>
+                </tr>
+
+
+            </table>
+        
+
+<wbr>
+    </body>
+</html>
